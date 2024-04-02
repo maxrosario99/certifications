@@ -14,7 +14,7 @@ const Layout = () => {
     <div>
       <Certification
         certification={certification}
-        setCertification={setCertification}
+        setShow={setShow}
       />
       <EditCertification
         show={show}
